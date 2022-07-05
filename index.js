@@ -13,6 +13,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+console.log(app)
+
 app.get('/clients', ClientCtrl.all);
 
 
