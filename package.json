@@ -1,0 +1,23 @@
+{
+  "name": "airmasters-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "heroku": "^7.60.2",
+    "lodash": "^4.17.21",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.0.12",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^2.0.14"
+  }
+}
